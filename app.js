@@ -37,7 +37,7 @@ app.use(function(err, req, res, next) {
   res.status(err.status || 500);
   res.render('error');
 });
-app.listen(3000, function() {
+app.listen(process.env.PORT || 5000, function() {
   console.log("Node server running on http://localhost:3000");
 });
 module.exports = app;
