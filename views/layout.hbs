@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Microservice</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <h1>Get Request</h1>
+    <input type="text" id="user_id" placeholder="User id">
+    <button type="submit" id="get_user">Get Request</button>
+    <button type="submit" id="get_users">Get All Users</button>
+    <div id="users_div"></div>
+
+
+    <h1>Post Request</h1>
+    <input type="text" id="name" placeholder="name">
+    <input type="text" id="surname" placeholder="surname">
+    <input type="date" id="birthday" placeholder="Birthday">
+    <input type="text" id="address_1" placeholder="Address One">
+    <input type="text" id="address_2" placeholder="Address Two">
+    <input type="text" id="country" placeholder="Country">
+    <input type="text" id="city" placeholder="City">
+    <input type="text" id="postal_code" placeholder="Postal Code">
+    <button type="submit" id="add_user">Add</button>
+
+    <h1>Delete Request</h1>
+    <input type="text" id="delete_id" placeholder="For deleted user id">
+    <button type="submit" id="delete_user">Delete</button>
+
+    <h1>Put Request</h1>
+    <input type="text" id="update_id" placeholder="For updated field id">
+    <input type="text" id="update_field" placeholder="For updated field name">
+    <input type="text" id="update_value" placeholder="Field new value">
+    <button type="submit" id="update_user">Update</button>
+  <script src="/javascripts/index.js"></script>
+  </body>
+</html>
