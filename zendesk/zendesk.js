@@ -33,24 +33,14 @@ function handleError(err) {
     console.log(err);
     process.exit(-1);
 }
-// var client = zd.createClient({
-//   username:  exampleConfig.auth.username,
-//   token:     exampleConfig.auth.token,
-//   remoteUri: exampleConfig.auth.remoteUri
-// });
-
-// var user = {
-//   "user": {
-//     "name": "Foo Bar",
-//     "lastname":"sdsafsd",
-//     "email": "FooBarssww@example.org",
-//   }
-// };
+// let id =365980889351;
 //
-// client.users.create(user, function (err, req, result) {
+// let user = {"user": {"name": "Roger Wilco II"}}
+//
+// client.users.update(id,user, function (err, req, result) {
 //   if (err) {
 //     console.log(err);
 //     return;
 //   }
-//   console.log(JSON.stringify(result, null, 2, true));
+//   else console.log("ok");
 // });
